@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Valiati Vistorias em Vila Pavão/ES. Vistoria veicular com agilidade, segurança e padrão técnico.">
+  <meta name="theme-color" content="#0f172a">
+  <title>Valiati Vistorias | Vila Pavão - ES</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#0f172a",
+            brand: "#1e3a8a",
+            sky: "#0284c7",
+            certified: "#059669",
+            canvas: "#f8fafc"
+          },
+          fontFamily: { sans: ["Plus Jakarta Sans", "sans-serif"] },
+          boxShadow: { soft: "0 14px 40px rgba(15, 23, 42, .08)" }
+        }
+      }
+    };
+  </script>
+  <style>
+    body { font-family: "Plus Jakarta Sans", sans-serif; }
+    .material-symbols-outlined { font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 24; }
+    .hero-grid {
+      background-image: linear-gradient(rgba(30, 58, 138, .045) 1px, transparent 1px), linear-gradient(90deg, rgba(30, 58, 138, .045) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+  </style>
+</head>
+<body class="bg-canvas text-ink antialiased">
+  <header class="fixed inset-x-0 top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur-xl">
+    <div class="hidden bg-ink text-white sm:block">
+      <div class="mx-auto flex h-9 max-w-7xl items-center justify-between px-5 text-xs">
+        <span class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-emerald-400"></span>Vila Pavão - Espírito Santo</span>
+        <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px]">verified</span>Vistoria com padrão técnico</span>
+      </div>
+    </div>
+    <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5">
+      <a href="#inicio" aria-label="Valiati Vistorias - início">
+        <img src="logo.svg" alt="Valiati Vistorias - Vila Pavão" class="h-12 w-auto">
+      </a>
+      <nav class="hidden items-center gap-7 text-sm font-semibold text-slate-600 lg:flex" aria-label="Navegação principal">
+        <a class="transition hover:text-brand" href="#inicio">Início</a>
+        <a class="transition hover:text-brand" href="#como-funciona">Como funciona</a>
+        <a class="transition hover:text-brand" href="#servicos">Serviços</a>
+        <a class="transition hover:text-brand" href="#unidade">Unidade</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="#unidade" class="hidden h-11 items-center gap-2 rounded-xl bg-brand px-5 text-sm font-bold text-white transition hover:bg-blue-950 sm:flex">
+          <span class="material-symbols-outlined text-xl">location_on</span>Como chegar
+        </a>
+        <button id="menuButton" type="button" class="grid h-11 w-11 place-items-center rounded-xl border border-slate-200 text-ink lg:hidden" aria-label="Abrir menu" aria-controls="mobileMenu" aria-expanded="false">
+          <span id="menuIcon" class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+    </div>
+    <nav id="mobileMenu" class="hidden border-t border-slate-100 bg-white px-5 py-4 shadow-soft lg:hidden" aria-label="Navegação móvel">
+      <div class="mx-auto flex max-w-7xl flex-col gap-1 text-sm font-semibold">
+        <a class="rounded-lg px-3 py-3 hover:bg-slate-50" href="#inicio">Início</a>
+        <a class="rounded-lg px-3 py-3 hover:bg-slate-50" href="#como-funciona">Como funciona</a>
+        <a class="rounded-lg px-3 py-3 hover:bg-slate-50" href="#servicos">Serviços</a>
+        <a class="rounded-lg px-3 py-3 hover:bg-slate-50" href="#unidade">Unidade</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-20 sm:pt-[116px]">
+    <section id="inicio" class="hero-grid scroll-mt-32 overflow-hidden bg-white py-16 lg:py-24">
+      <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 lg:grid-cols-12">
+        <div class="lg:col-span-7">
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brand">
+            <span class="material-symbols-outlined text-base text-sky">security</span>Vistoria veicular em Vila Pavão
+          </div>
+          <h1 class="max-w-3xl text-4xl font-extrabold leading-[1.12] tracking-tight text-ink sm:text-5xl lg:text-6xl">
+            Segurança para o seu veículo. <span class="text-brand">Tranquilidade para você.</span>
+          </h1>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+            Inspeção veicular criteriosa, atendimento ágil e informações claras em cada etapa do processo.
+          </p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="#servicos" class="inline-flex h-13 items-center justify-center gap-2 rounded-xl bg-certified px-6 py-4 text-sm font-bold text-white shadow-lg shadow-emerald-900/10 transition hover:bg-emerald-700">
+              <span class="material-symbols-outlined">fact_check</span>Conheça os serviços
+            </a>
+            <a href="#unidade" class="inline-flex h-13 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-4 text-sm font-bold text-brand transition hover:border-blue-200 hover:bg-blue-50">
+              <span class="material-symbols-outlined">map</span>Localizar unidade
+            </a>
+          </div>
+          <div class="mt-10 grid max-w-2xl gap-3 sm:grid-cols-3">
+            <div class="flex items-center gap-3 rounded-xl border border-slate-200 bg-white p-3 text-sm font-semibold"><span class="material-symbols-outlined text-certified">task_alt</span>Processo seguro</div>
+            <div class="flex items-center gap-3 rounded-xl border border-slate-200 bg-white p-3 text-sm font-semibold"><span class="material-symbols-outlined text-sky">speed</span>Atendimento ágil</div>
+            <div class="flex items-center gap-3 rounded-xl border border-slate-200 bg-white p-3 text-sm font-semibold"><span class="material-symbols-outlined text-brand">shield</span>Equipe preparada</div>
+          </div>
+        </div>
+        <div class="relative lg:col-span-5">
+          <div class="absolute -inset-5 -z-10 rounded-[2rem] bg-gradient-to-br from-blue-100 to-emerald-100 blur-2xl"></div>
+          <div class="overflow-hidden rounded-[1.75rem] border-8 border-white bg-slate-200 shadow-soft">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVwUawW_dR9O_X1ObuSS1XO8P4KXWyWDKKKM4PBGrdGwARhJLZJ0LuLjsEAybGaeBjpHbLMRKWcICtVFkmsUntOMa4G-f41tQZ26HYbA-IhRLB958DO8dffUR1HS6aRD9c63fZwbMGg7BFw9pyeuJWlfYt-LbgcuFN_kbt7yzEDIIQuzae6rlIojbhvnIhIMRD3hUcqCxs5KIZUBzx8w-mrbe1GndyoJpgkDw2c5dgFoxUJEc6lbI" alt="Profissional realizando inspeção técnica em um veículo" class="h-[460px] w-full object-cover" referrerpolicy="no-referrer">
+            <div class="absolute bottom-5 left-5 right-5 flex items-center gap-3 rounded-2xl bg-white/95 p-4 shadow-soft backdrop-blur">
+              <div class="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-emerald-50 text-certified"><span class="material-symbols-outlined">verified</span></div>
+              <div><p class="text-xs font-bold uppercase tracking-wider text-certified">Confiança Valiati</p><p class="font-bold">Cuidado em cada detalhe</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="como-funciona" class="scroll-mt-32 py-20">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="mx-auto max-w-2xl text-center">
+          <p class="text-xs font-bold uppercase tracking-[.2em] text-sky">Simples e transparente</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">Sua vistoria em três etapas</h2>
+          <p class="mt-4 text-slate-600">Um processo direto, conduzido por uma equipe preparada para orientar você.</p>
+        </div>
+        <div class="mt-12 grid gap-5 md:grid-cols-3">
+          <article class="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+            <div class="flex items-center justify-between"><span class="text-4xl font-extrabold text-blue-100">01</span><span class="material-symbols-outlined grid h-12 w-12 place-items-center rounded-xl bg-blue-50 text-brand">calendar_month</span></div>
+            <h3 class="mt-6 text-lg font-bold">Organize sua visita</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">Separe os documentos do veículo e escolha o melhor momento para ir à unidade.</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+            <div class="flex items-center justify-between"><span class="text-4xl font-extrabold text-blue-100">02</span><span class="material-symbols-outlined grid h-12 w-12 place-items-center rounded-xl bg-blue-50 text-brand">car_repair</span></div>
+            <h3 class="mt-6 text-lg font-bold">Realize a inspeção</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">Nossa equipe avalia os itens de identificação e segurança aplicáveis ao serviço.</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+            <div class="flex items-center justify-between"><span class="text-4xl font-extrabold text-emerald-100">03</span><span class="material-symbols-outlined grid h-12 w-12 place-items-center rounded-xl bg-emerald-50 text-certified">description</span></div>
+            <h3 class="mt-6 text-lg font-bold">Receba a orientação</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">Ao final, você recebe as informações necessárias para seguir com o seu processo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="scroll-mt-32 bg-ink py-20 text-white">
+      <div class="mx-auto max-w-7xl px-5">
+        <div class="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+          <div><p class="text-xs font-bold uppercase tracking-[.2em] text-sky-300">Soluções veiculares</p><h2 class="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">Serviços de vistoria</h2></div>
+          <p class="max-w-xl text-sm leading-6 text-slate-300">Verificações técnicas para diferentes necessidades do seu veículo. Consulte a unidade sobre documentos e requisitos de cada modalidade.</p>
+        </div>
+        <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="rounded-2xl border border-white/10 bg-white/5 p-6"><span class="material-symbols-outlined text-3xl text-sky-300">swap_horiz</span><h3 class="mt-5 font-bold">Transferência</h3><p class="mt-2 text-sm leading-6 text-slate-300">Avaliação para processos de compra, venda e mudança de propriedade.</p></article>
+          <article class="rounded-2xl border border-white/10 bg-white/5 p-6"><span class="material-symbols-outlined text-3xl text-sky-300">manage_search</span><h3 class="mt-5 font-bold">Vistoria cautelar</h3><p class="mt-2 text-sm leading-6 text-slate-300">Análise técnica que ajuda a conhecer melhor a procedência do veículo.</p></article>
+          <article class="rounded-2xl border border-white/10 bg-white/5 p-6"><span class="material-symbols-outlined text-3xl text-sky-300">difference</span><h3 class="mt-5 font-bold">Regularização</h3><p class="mt-2 text-sm leading-6 text-slate-300">Inspeções relacionadas a alterações e processos documentais aplicáveis.</p></article>
+          <article class="rounded-2xl border border-white/10 bg-white/5 p-6"><span class="material-symbols-outlined text-3xl text-sky-300">local_shipping</span><h3 class="mt-5 font-bold">Utilitários e frotas</h3><p class="mt-2 text-sm leading-6 text-slate-300">Atendimento a diferentes categorias de veículos e demandas empresariais.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="unidade" class="scroll-mt-32 bg-white py-20">
+      <div class="mx-auto grid max-w-7xl gap-10 px-5 lg:grid-cols-2 lg:items-center">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-[.2em] text-sky">Unidade Vila Pavão</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">Atendimento perto de você</h2>
+          <p class="mt-5 max-w-xl leading-7 text-slate-600">Encontre a Valiati Vistorias em Vila Pavão, Espírito Santo. Consulte a rota antes de sair e fale diretamente com a equipe presencial para confirmar os detalhes do atendimento.</p>
+          <div class="mt-8 rounded-2xl border border-slate-200 bg-canvas p-5">
+            <div class="flex gap-4"><span class="material-symbols-outlined grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-blue-100 text-brand">pin_drop</span><div><p class="font-bold">Valiati Vistorias</p><p class="mt-1 text-sm text-slate-600">Vila Pavão - ES</p></div></div>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=Valiati+Vistorias+Vila+Pav%C3%A3o+ES" target="_blank" rel="noopener noreferrer" class="mt-5 inline-flex h-12 items-center gap-2 rounded-xl bg-brand px-6 text-sm font-bold text-white transition hover:bg-blue-950">
+            <span class="material-symbols-outlined">directions</span>Abrir rota no mapa
+          </a>
+        </div>
+        <a href="https://www.google.com/maps/search/?api=1&query=Valiati+Vistorias+Vila+Pav%C3%A3o+ES" target="_blank" rel="noopener noreferrer" class="group relative min-h-[360px] overflow-hidden rounded-[1.75rem] bg-gradient-to-br from-blue-100 via-slate-100 to-emerald-100 shadow-soft">
+          <div class="absolute inset-0 opacity-35 hero-grid"></div>
+          <div class="absolute left-[18%] top-[22%] h-3 w-3 rounded-full bg-sky shadow-[0_0_0_8px_rgba(2,132,199,.12)]"></div>
+          <div class="absolute right-[20%] top-[35%] h-2 w-2 rounded-full bg-slate-400"></div>
+          <div class="absolute bottom-[22%] left-[30%] h-2 w-2 rounded-full bg-slate-400"></div>
+          <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+            <span class="material-symbols-outlined text-6xl text-brand transition group-hover:-translate-y-1">location_on</span>
+            <div class="mt-2 rounded-xl bg-white px-5 py-3 shadow-soft"><p class="font-bold text-brand">Vila Pavão - ES</p><p class="mt-1 text-xs text-slate-500">Clique para abrir o mapa</p></div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-canvas">
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-5 px-5 py-8 text-center sm:flex-row sm:text-left">
+      <img src="logo.svg" alt="Valiati Vistorias" class="h-10 w-auto">
+      <p class="text-xs text-slate-500">© <span id="year"></span> Valiati Vistorias • Vila Pavão, Espírito Santo</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.getElementById("menuButton");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const menuIcon = document.getElementById("menuIcon");
+
+    function closeMenu() {
+      mobileMenu.classList.add("hidden");
+      menuButton.setAttribute("aria-expanded", "false");
+      menuIcon.textContent = "menu";
+    }
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+      mobileMenu.classList.toggle("hidden", isOpen);
+      menuButton.setAttribute("aria-expanded", String(!isOpen));
+      menuIcon.textContent = isOpen ? "menu" : "close";
+    });
+
+    mobileMenu.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

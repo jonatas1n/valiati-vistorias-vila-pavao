@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 75" width="340" height="75" fill="none">
+  <defs>
+    <linearGradient id="valGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="valGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(10, 10)">
+    <rect width="54" height="54" rx="14" fill="url(#valGrad)"/>
+    <path d="M15 18L27 38L39 18" stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 36C12 36 17 32 27 32C37 32 42 36 42 36" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="18" cy="42" r="3.5" fill="#FFFFFF"/>
+    <circle cx="36" cy="42" r="3.5" fill="#FFFFFF"/>
+    <circle cx="43" cy="14" r="10" fill="url(#valGreen)" stroke="#FFFFFF" stroke-width="2.5"/>
+    <path d="M39 14L42 17L47 11" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="76" y="32" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="22" font-weight="900" fill="#0F172A" letter-spacing="-0.5">VALIATI</text>
+  <text x="175" y="32" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="700" fill="#0284C7" letter-spacing="1">VISTORIAS</text>
+  <text x="76" y="49" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#64748B" letter-spacing="1.2">VILA PAVAO - ES</text>
+  <rect x="264" y="19" width="66" height="22" rx="6" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="297" y="34" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9.5" font-weight="800" fill="#059669" text-anchor="middle">VISTORIA</text>
+</svg>
